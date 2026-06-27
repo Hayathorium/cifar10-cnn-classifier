@@ -24,6 +24,7 @@ This project is a complete deep learning pipeline for image classification using
 To start training the model on the CIFAR-10 dataset, simply run:
 ```bash
 python train.py
+```
 
 ## Alternative Architectures
 
@@ -33,6 +34,5 @@ In addition to the custom CNN, this repository includes a **ResNet-34** implemen
 To use this model, simply import the class in your training or inference scripts:
 ```python
 from model_resnet34 import ResNet34
-
 # Initialize for your specific dataset
 model = ResNet34(in_channels=3, num_classes=10)
